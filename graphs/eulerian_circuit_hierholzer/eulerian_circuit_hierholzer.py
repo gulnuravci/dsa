@@ -6,9 +6,9 @@ def hierholzer_algorithm(graph):
     edge_count = {node:len(edges) for node, edges in graph.items()}
     # store final circuit
     circuit = []
-    # starting node
+    # starting node (can be any)
     curr_node = list(graph.keys())[0]
-    # stack for backtracking and intialize with any node
+    # initialize stack for backtracking
     curr_path = [curr_node]
 
     while len(curr_path):
