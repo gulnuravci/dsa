@@ -1,2 +1,2 @@
 # dsa
-Data structures and algorithm concepts written clearly and concisely.
+Data structures and algorithm concepts written concisely.
